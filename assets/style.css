@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    display:inline-flex;
+    flex-wrap:wrap;
+    padding-top: 15px;
+    margin-left: 20px;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+nav {
+    display:inline-flex;
+    flex-wrap:wrap;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-left: 25px;
+}
