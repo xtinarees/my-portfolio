@@ -1,16 +1,10 @@
-.wrapper {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.wrapper > * {
-    flex: 1 100%;
+* {
    font-family: 'Oswald', sans-serif;
 
 }
 
 header {
-    display: inline-flex;
+    display: flex;
     width: 100%;
     background: #E5FCC2;
     height: 75px;
@@ -20,9 +14,7 @@ header {
 }
 
 h1 {
-    flex-direction: row;
     justify-content: flex-start;
-    display: inline-flex;
     padding: 5px;
     margin: 10px;
     font-size: 35px;
@@ -32,7 +24,7 @@ h1 {
 }
 
 nav {
-    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 nav ul {
@@ -83,14 +75,14 @@ nav ul li {
 }
 
 .about-me img {
-    display: flex;
     margin-left: 20px;
+    align-items: flex-start;
 }
 
 .about-me .h2 {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-start;
     border:black;
     border-width:2px;
     border-style: solid;
@@ -98,13 +90,12 @@ nav ul li {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 75px;
-    margin-bottom: 20px;
+    margin: 75px;
     width: 25%;
 }
 
 .about-me p {
+    align-items: flex-end;
     margin: 30px;
     font-family: 'Oswald', sans-serif;
     font-weight: lighter;
@@ -128,10 +119,7 @@ nav ul li {
     padding:10px;
     font-size: 25px;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 75px;
-    margin-bottom: 20px;
-    margin-right: 30px;
+    margin: 75px;
     width: 25%;
 }
 
@@ -140,7 +128,7 @@ nav ul li {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0;
-    margin-left: 30px;
+    margin: 30px;
     list-style: none;
 }
 
@@ -179,6 +167,26 @@ nav ul li {
     background: #E5FCC2;
     width: 100%;
     flex-wrap: nowrap;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border:black;
+    border-width:2px;
+    border-style: solid;
+    padding:10px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact-info {
+    margin: 30px;
+    align-items: flex-end;
 }
 
 /* E5FCC2   9DE0AD   45ADA8   547980   594F4F */ 
