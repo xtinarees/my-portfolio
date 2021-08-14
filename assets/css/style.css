@@ -159,7 +159,7 @@ nav ul li {
 
 .featured {
     background-size:cover;
-    background-image: url(/assets/images/horiseon1.png);
+    background-image: url(../images/horiseon1.png);
     padding: 5px;
     width: 00px;
     height: 200px;
@@ -174,37 +174,11 @@ nav ul li {
 }
 
 .contact {
-        display: flex;
-        flex-direction: row;
-        background: #E5FCC2;
+    display: flex;
+    flex-direction: row;
+    background: #E5FCC2;
+    width: 100%;
+    flex-wrap: nowrap;
 }
-
-.contact h2 {
-    justify-content: flex-start;
-    border:black;
-    border-width:2px;
-    border-style: solid;
-    padding:10px;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-right: 40x;
-    width: 25%;
-}
-
-.contact-info {
-    justify-content: flex-end;
-    align-content: flex-end;
-    display: inline-flex;
-    margin-right: 10px;
-    margin-top: 20px;
-    border:black;
-    border-width:2px;
-    border-style: solid;
-    padding:10px;
-}
-
 
 /* E5FCC2   9DE0AD   45ADA8   547980   594F4F */ 
